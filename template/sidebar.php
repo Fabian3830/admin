@@ -12,17 +12,16 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
           <h6 class="dropdown-header">Colaboradores</h6>
-          <a class="dropdown-item" href="artistas.php">Artistas</a>
-          <a class="dropdown-item" href="tables.html">Licencias</a>
-          <a class="dropdown-item" href="forgot-password.html">Proveedores</a>
+          <a class="dropdown-item" href="insertaArtista.php">Artistas</a>
+          <a class="dropdown-item" href="insertaLicencia.php">Licencias</a>
+          <a class="dropdown-item" href="InsertaProveedor.php">Proveedores</a>
           <div class="dropdown-divider"></div>
           <h6 class="dropdown-header">Productos</h6>
-          <a class="dropdown-item" href="404.html">Articulos</a>
-          <a class="dropdown-item" href="blank.html">Tipos</a>
+          <a class="dropdown-item" href="insertaArticulo.php">Articulos</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="articulos.php">
+        <a class="nav-link" href="insertaArticulo.php">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Articulos</span></a>
       </li>
@@ -32,7 +31,7 @@
           <span>Charts</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="InsertaTipo.html">
           <i class="fas fa-fw fa-table"></i>
           <span>Tables</span></a>
       </li>

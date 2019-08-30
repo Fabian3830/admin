@@ -2,19 +2,19 @@
 <html lang="en">
 
 <!-- HEADER -->
-<?php include("header.php") ?>
+<?php include("template/header.php") ?>
 <!-- HEADER -->
 
 <body id="page-top">
 
   <!-- NAVBAR -->
-  <?php include("navbar.php") ?>
+  <?php include("template/navbar.php") ?>
   <!-- NAVBAR -->
 
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <?php include("sidebar.php") ?>
+    <?php include("template/sidebar.php") ?>
     <!-- Sidebar -->
 
     <div id="content-wrapper">
@@ -164,13 +164,7 @@
       <!-- /.container-fluid -->
 
       <!-- Sticky Footer -->
-      <footer class="sticky-footer">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright © Your Website 2019</span>
-          </div>
-        </div>
-      </footer>
+      <?php include("template/footer.php") ?>
 
     </div>
     <!-- /.content-wrapper -->
@@ -183,7 +177,7 @@
   </a>
 
   <!-- SCRIPTS -->
-  <?php include("scripts.php") ?>
+  <?php include("template/scripts.php") ?>
   <!-- SCRIPTS -->
 </body>
 

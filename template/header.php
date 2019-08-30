@@ -1,4 +1,3 @@
-<head>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,3 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
   <script src="vendor/jquery/jquery.min.js" type="text/javascript"></script>
-  <script src="js/col.js" type="text/javascript"></script>
-  
-
-</head>

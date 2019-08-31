@@ -4,6 +4,8 @@ require('Clases/claseArticulo.php');
 $Articulo = new ClaseArticulo();
 
 $resultado = $Articulo->agregaColaboradores();
+
+var_dump($resultado[0].['artista']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,9 +44,14 @@ $resultado = $Articulo->agregaColaboradores();
                             <select class="custom-select" id="tipo">
                                 <option selected>Licencia</option>
                                 <?php
-                                if ($resultado["licencia"] != null) {
-                                    foreach ($resultado['licencia'] as $licencia) {
-                                        echo "<option value='" . $licencia['id'] . "'>" . $licencia['nombre'] . "</option>";
+                                if ($resultado != null) {
+                                    $keys = array_keys($resultado);
+                                    for ($i = 0; $i < count($resultado); $i++) {
+                                        echo $keys[$i] . "\n";
+                                        foreach ($resultado[$keys[$i]] as $key => $value) {
+                                            echo $key . " : " . $value . "\n";
+                                        }
+                                        echo "\n";
                                     }
                                 } else {
                                     echo "<option value=''>No hay registros, debe crearlos</option>";
@@ -58,7 +65,7 @@ $resultado = $Articulo->agregaColaboradores();
                                 <?php
                                 if ($resultado["artista"] != null) {
                                     foreach ($resultado["artista"] as $artista) {
-                                        echo "<option value='" . $artista.id . "'>" . $artista.nombre . "</option>";
+                                        echo "<option value='" . $artista . id . "'>" . $artista . nombre . "</option>";
                                     }
                                 } else {
                                     echo "<option value=''>No hay registros, debe crearlos</option>";
@@ -72,7 +79,7 @@ $resultado = $Articulo->agregaColaboradores();
                                 <?php
                                 if ($resultado["proveedor"] != null) {
                                     foreach ($resultado["proveedor"] as $proveedor) {
-                                        echo "<option value='" . $proveedor.id . "'>" . $proveedor.nombre . "</option>";
+                                        echo "<option value='" . $proveedor . id . "'>" . $proveedor . nombre . "</option>";
                                     }
                                 } else {
                                     echo "<option value=''>No hay registros, debe crearlos</option>";

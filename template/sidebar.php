@@ -1,6 +1,6 @@
 <ul class="sidebar navbar-nav navbar-dark bg-dark">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="#">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span>
         </a>
@@ -26,7 +26,7 @@
           <span>Articulos</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="#">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Charts</span></a>
       </li>

@@ -1,10 +1,10 @@
 <?php
 
-$nombre=$_FILE['img']['name'];
+$nombre=$_FILES['img']['name'];
 
-$tipo=$_FILE['img']['type'];
+$tipo=$_FILES['img']['type'];
 
-$tamano=$_FILE['img']['size'];
+$tamano=$_FILES['img']['size'];
 
 
 $destino=$_SERVER['DOCUMENT_ROOT'].'/Mnd002/SERVER/img/';
